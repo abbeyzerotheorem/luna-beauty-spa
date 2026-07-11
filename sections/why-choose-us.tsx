@@ -3,6 +3,7 @@
 import * as React from "react"
 import { motion } from "framer-motion"
 import { Container } from "@/components/ui/container"
+import { Section } from "@/components/ui/section"
 import { SectionHeading } from "@/components/ui/section-heading"
 import clientData from "@/data/client"
 import { Award, Sparkles, Home, Heart } from "lucide-react"

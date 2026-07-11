@@ -6,10 +6,10 @@ import { Container } from "@/components/ui/container"
 import { SectionHeading } from "@/components/ui/section-heading"
 import { Section } from "@/components/ui/section"
 import clientData from "@/data/client"
-import { Spa, Calendar, CheckCircle, Heart } from "lucide-react"
+import { Sparkles, Calendar, CheckCircle, Heart } from "lucide-react"
 
 const iconMap = {
-  spa: Spa,
+  spa: Sparkles,
   calendar: Calendar,
   "check-circle": CheckCircle,
   heart: Heart,
