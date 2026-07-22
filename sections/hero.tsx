@@ -38,9 +38,7 @@ export function Hero() {
         }}
         className="absolute top-20 right-10 lg:right-20 z-10 hidden md:block"
       >
-        <div className="w-16 h-16 bg-accent/20 rounded-full backdrop-blur-sm flex items-center justify-center">
-          <BubbleIcon className="w-8 h-8 text-accent" />
-        </div>
+        <BubbleIcon className="w-12 h-12 text-white/30" />
       </motion.div>
 
       <motion.div
@@ -55,7 +53,7 @@ export function Hero() {
         }}
         className="absolute bottom-32 left-10 lg:left-20 z-10 hidden md:block"
       >
-        <div className="w-12 h-12 bg-sage/30 rounded-full backdrop-blur-sm" />
+        <BubbleIcon className="w-10 h-10 text-white/20" />
       </motion.div>
 
       <Container className="relative z-10 pt-20 pb-16">
