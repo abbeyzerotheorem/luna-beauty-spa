@@ -15,7 +15,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/70 to-accent/20" />
         <Image
-          src="/images/hero-bg.jpg"
+          src="/hero.jpeg"
           alt="Luxury spa interior"
           fill
           className="object-cover"
