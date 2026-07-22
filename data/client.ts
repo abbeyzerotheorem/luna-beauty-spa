@@ -67,7 +67,7 @@ export const clientData = {
       description: "Rejuvenating facial treatments tailored to your skin type, from deep cleansing to anti-aging therapies.",
       duration: "60-90 min",
       startingPrice: 120,
-      image: "/images/treatments/facials.jpg",
+      image: "/facials.jpeg",
       popular: true,
     },
     {
@@ -76,7 +76,7 @@ export const clientData = {
       description: "Therapeutic massages including Swedish, deep tissue, hot stone, and aromatherapy to melt away stress.",
       duration: "60-120 min",
       startingPrice: 95,
-      image: "/images/treatments/massage.jpg",
+      image: "/MassagTherapy.jpeg",
       popular: true,
     },
     {
@@ -85,7 +85,7 @@ export const clientData = {
       description: "Luxurious body wraps, scrubs, and polishes that nourish and revitalize your skin from head to toe.",
       duration: "60-90 min",
       startingPrice: 150,
-      image: "/images/treatments/body.jpg",
+      image: "/BodyTreatments.jpeg",
       popular: false,
     },
     {
@@ -94,7 +94,7 @@ export const clientData = {
       description: "Advanced skincare treatments including microdermabrasion, chemical peels, and LED light therapy.",
       duration: "45-90 min",
       startingPrice: 135,
-      image: "/images/treatments/skincare.jpg",
+      image: "/skincare.jpeg",
       popular: false,
     },
     {
@@ -103,7 +103,7 @@ export const clientData = {
       description: "Professional waxing services using premium products for smooth, long-lasting results.",
       duration: "15-60 min",
       startingPrice: 35,
-      image: "/images/treatments/waxing.jpg",
+      image: "/waxing.jpeg",
       popular: false,
     },
     {
@@ -112,7 +112,7 @@ export const clientData = {
       description: "Manicures, pedicures, and nail art in a relaxing atmosphere with premium products.",
       duration: "30-90 min",
       startingPrice: 45,
-      image: "/images/treatments/nails.jpg",
+      image: "/nails.jpeg",
       popular: false,
     },
     {
@@ -121,7 +121,7 @@ export const clientData = {
       description: "Curated combination treatments for the ultimate spa experience and maximum relaxation.",
       duration: "2-4 hours",
       startingPrice: 250,
-      image: "/images/treatments/packages.jpg",
+      image: "/packages.jpeg",
       popular: true,
     },
   ],
@@ -181,7 +181,7 @@ export const clientData = {
       location: "Los Angeles, CA",
       rating: 5,
       text: "The most relaxing spa experience I've ever had. The attention to detail and personalized service made me feel like royalty. I've been a loyal client for three years now.",
-      avatar: "/images/testimonials/sarah.jpg",
+      avatar: "/amanda.jpeg",
       treatment: "Signature Experience",
     },
     {
@@ -190,7 +190,7 @@ export const clientData = {
       location: "Beverly Hills, CA",
       rating: 5,
       text: "As someone who was skeptical about spa treatments, Luna Beauty Spa completely changed my perspective. The massage therapists are world-class and the atmosphere is incredibly peaceful.",
-      avatar: "/images/testimonials/michael.jpg",
+      avatar: "/aina.jpeg",
       treatment: "Massage Therapy",
     },
     {
@@ -199,7 +199,7 @@ export const clientData = {
       location: "Santa Monica, CA",
       rating: 5,
       text: "I've tried many spas in LA, but Luna stands out for their consistency and quality. Every visit feels like a mini-vacation. The facial treatments have transformed my skin!",
-      avatar: "/images/testimonials/emily.jpg",
+      avatar: "/emily.jpeg",
       treatment: "Facials",
     },
     {
@@ -208,7 +208,7 @@ export const clientData = {
       location: "West Hollywood, CA",
       rating: 5,
       text: "The perfect place to escape the city chaos. Professional staff, beautiful facilities, and treatments that actually deliver results. Highly recommend the luxury package.",
-      avatar: "/images/testimonials/david.jpg",
+      avatar: "/david.jpeg",
       treatment: "Luxury Retreat",
     },
     {
@@ -217,7 +217,7 @@ export const clientData = {
       location: "Pasadena, CA",
       rating: 5,
       text: "From the moment you walk in, you're transported to a sanctuary of calm. The staff genuinely cares about your experience. My go-to place for self-care.",
-      avatar: "/images/testimonials/jennifer.jpg",
+      avatar: "/jennifer.jpeg",
       treatment: "Spa Packages",
     },
   ],
@@ -268,34 +268,34 @@ export const clientData = {
   
   // Gallery Images
   gallery: [
-    { id: 1, src: "/images/gallery/1.jpg", alt: "Spa interior reception area" },
-    { id: 2, src: "/images/gallery/2.jpg", alt: "Treatment room with calming ambiance" },
-    { id: 3, src: "/images/gallery/3.jpg", alt: "Luxury facial treatment in progress" },
-    { id: 4, src: "/images/gallery/4.jpg", alt: "Massage therapy room" },
-    { id: 5, src: "/images/gallery/5.jpg", alt: "Relaxation lounge with herbal tea" },
-    { id: 6, src: "/images/gallery/6.jpg", alt: "Premium skincare products display" },
-    { id: 7, src: "/images/gallery/7.jpg", alt: "Body treatment preparation" },
-    { id: 8, src: "/images/gallery/8.jpg", alt: "Nail care station" },
-    { id: 9, src: "/images/gallery/9.jpg", alt: "Outdoor meditation garden" },
-    { id: 10, src: "/images/gallery/10.jpg", alt: "Spa package refreshments" },
-    { id: 11, src: "/images/gallery/11.jpg", alt: "Couples treatment suite" },
-    { id: 12, src: "/images/gallery/12.jpg", alt: "Aromatherapy essentials" },
+    { id: 1, src: "/receptionarea.jpeg", alt: "Spa interior reception area" },
+    { id: 2, src: "/Treatmentroom.jpeg", alt: "Treatment room with calming ambiance" },
+    { id: 3, src: "/Luxuryfacial.jpeg", alt: "Luxury facial treatment in progress" },
+    { id: 4, src: "/therapyroom.jpeg", alt: "Massage therapy room" },
+    { id: 5, src: "/herbaltea.jpeg", alt: "Relaxation lounge with herbal tea" },
+    { id: 6, src: "/skincareproducts.jpeg", alt: "Premium skincare products display" },
+    { id: 7, src: "/Bodypreparation.jpeg", alt: "Body treatment preparation" },
+    { id: 8, src: "/Nailcarestation.jpeg", alt: "Nail care station" },
+    { id: 9, src: "/Outdoormeditation.jpeg", alt: "Outdoor meditation garden" },
+    { id: 10, src: "/Sparefreshments.jpeg", alt: "Spa package refreshments" },
+    { id: 11, src: "/Couplestreatment.jpeg", alt: "Couples treatment suite" },
+    { id: 12, src: "/Aromatherapy.jpeg", alt: "Aromatherapy essentials" },
   ],
   
   // Instagram Feed (simulated)
   instagramPosts: [
-    { id: 1, src: "/images/instagram/1.jpg", caption: "Morning zen 🧘‍♀️", likes: 234 },
-    { id: 2, src: "/images/instagram/2.jpg", caption: "New facial treatment available ✨", likes: 189 },
-    { id: 3, src: "/images/instagram/3.jpg", caption: "Self-care isn't selfish 💆‍♀️", likes: 312 },
-    { id: 4, src: "/images/instagram/4.jpg", caption: "Weekend vibes at Luna", likes: 156 },
-    { id: 5, src: "/images/instagram/5.jpg", caption: "Treat yourself today", likes: 278 },
-    { id: 6, src: "/images/instagram/6.jpg", caption: "Relaxation redefined", likes: 201 },
+    { id: 1, src: "/Sparefreshments.jpeg", caption: "Morning zen 🧘‍♀️", likes: 234 },
+    { id: 2, src: "/herbaltea.jpeg", caption: "New facial treatment available ✨", likes: 189 },
+    { id: 3, src: "/Couplestreatment.jpeg", caption: "Self-care isn't selfish 💆‍♀️", likes: 312 },
+    { id: 4, src: "/skincareproducts.jpeg", caption: "Weekend vibes at Luna", likes: 156 },
+    { id: 5, src: "/Aromatherapy.jpeg", caption: "Treat yourself today", likes: 278 },
+    { id: 6, src: "/Nailcarestation.jpeg", caption: "Relaxation redefined", likes: 201 },
   ],
   
   // About Section
   about: {
     ownerName: "Isabella Martinez",
-    ownerImage: "/images/about/owner.jpg",
+    ownerImage: "/owner.jpeg",
     story: "After 15 years in the luxury hospitality industry, I dreamed of creating a sanctuary where people could truly disconnect from the world and reconnect with themselves. Luna Beauty Spa is that dream realized.",
     philosophy: "We believe that self-care is not a luxury—it's essential. Our approach combines ancient wellness traditions with modern techniques to deliver transformative experiences that nurture both body and soul.",
     mission: "To provide an exceptional spa experience that exceeds expectations, using only the finest products and techniques, delivered by passionate professionals who genuinely care about your well-being.",
@@ -310,31 +310,31 @@ export const clientData = {
       id: 1,
       title: "Arrival",
       description: "Step into our tranquil sanctuary and leave the outside world behind. Enjoy welcome refreshments as you prepare for your journey.",
-      image: "/images/experience/arrival.jpg",
+      image: "/Arrival.jpeg",
     },
     {
       id: 2,
       title: "Consultation",
       description: "Your therapist will discuss your needs and preferences to customize your treatment specifically for you.",
-      image: "/images/experience/consultation.jpg",
+      image: "/Consultation.jpeg",
     },
     {
       id: 3,
       title: "Treatment",
       description: "Experience expert care using premium products in our beautifully designed treatment rooms.",
-      image: "/images/experience/treatment.jpg",
+      image: "/skincareproducts.jpeg",
     },
     {
       id: 4,
       title: "Relaxation",
       description: "Unwind in our relaxation lounge with herbal tea and healthy refreshments after your treatment.",
-      image: "/images/experience/relaxation.jpg",
+      image: "/Relaxation.jpeg",
     },
     {
       id: 5,
       title: "Results",
       description: "Leave feeling refreshed, rejuvenated, and glowing with a personalized aftercare routine.",
-      image: "/images/experience/results.jpg",
+      image: "/result.jpeg",
     },
   ],
   
@@ -407,7 +407,7 @@ export const clientData = {
     title: "Luna Beauty Spa | Luxury Spa & Wellness Center",
     description: "Experience ultimate relaxation at Luna Beauty Spa. Premium facials, massages, body treatments, and skincare services in Beverly Hills. Book your appointment today.",
     keywords: ["luxury spa", "beauty spa", "facials", "massage therapy", "body treatments", "skincare", "Beverly Hills spa", "wellness center"],
-    ogImage: "/images/og-image.jpg",
+    ogImage: "/therapyroom.jpeg",
   },
   
   // Google Maps (placeholder)
