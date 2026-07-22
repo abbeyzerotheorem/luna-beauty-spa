@@ -3,15 +3,16 @@ import { cn } from "@/lib/utils"
 
 interface SectionProps extends React.HTMLAttributes<HTMLElement> {
   id?: string
-  variant?: "default" | "primary" | "accent"
+  variant?: "default" | "primary" | "accent" | "cream"
 }
 
 const Section = React.forwardRef<HTMLElement, SectionProps>(
   ({ className, variant = "default", id, ...props }, ref) => {
     const variantClasses = {
       default: "bg-white",
-      primary: "bg-primary",
+      primary: "bg-[#FAF8F5]",
       accent: "bg-accent/5",
+      cream: "bg-[#F5F0EB]",
     }
 
     return (

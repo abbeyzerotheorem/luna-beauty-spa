@@ -30,7 +30,7 @@ export function InstagramPreview() {
   }
 
   return (
-    <Section variant="default" id="instagram">
+    <Section variant="primary" id="instagram">
       <Container>
         <SectionHeading subtitle="@lunabeautyspa">
           Follow Our Journey

@@ -6,11 +6,12 @@ import { Container } from "@/components/ui/container"
 import { Section } from "@/components/ui/section"
 import { SectionHeading } from "@/components/ui/section-heading"
 import clientData from "@/data/client"
-import { Award, Sparkles, Home, Heart } from "lucide-react"
+import { Award, Home, Heart } from "lucide-react"
+import { BubbleIcon } from "@/components/ui/bubble-icon"
 
 const iconMap = {
   award: Award,
-  sparkles: Sparkles,
+  sparkles: BubbleIcon,
   home: Home,
   heart: Heart,
 }
@@ -36,7 +37,7 @@ export function WhyChooseUs() {
   }
 
   return (
-    <Section variant="default" id="why-choose-us">
+    <Section variant="cream" id="why-choose-us">
       <Container>
         <SectionHeading subtitle="Why Choose Us">
           Experience the Luna Difference
@@ -50,7 +51,7 @@ export function WhyChooseUs() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {clientData.whyChooseUs.map((item) => {
-            const Icon = iconMap[item.icon as keyof typeof iconMap] || Sparkles
+            const Icon = iconMap[item.icon as keyof typeof iconMap] || BubbleIcon
             return (
               <motion.div
                 key={item.id}

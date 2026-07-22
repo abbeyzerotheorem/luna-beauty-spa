@@ -16,7 +16,7 @@ export function FAQ() {
   }
 
   return (
-    <Section variant="default" id="faq">
+    <Section variant="cream" id="faq">
       <Container>
         <SectionHeading subtitle="Common Questions">
           Frequently Asked Questions

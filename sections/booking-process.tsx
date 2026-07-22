@@ -6,10 +6,11 @@ import { Container } from "@/components/ui/container"
 import { SectionHeading } from "@/components/ui/section-heading"
 import { Section } from "@/components/ui/section"
 import clientData from "@/data/client"
-import { Sparkles, Calendar, CheckCircle, Heart } from "lucide-react"
+import { Calendar, CheckCircle, Heart } from "lucide-react"
+import { BubbleIcon } from "@/components/ui/bubble-icon"
 
 const iconMap = {
-  spa: Sparkles,
+  spa: BubbleIcon,
   calendar: Calendar,
   "check-circle": CheckCircle,
   heart: Heart,

@@ -11,13 +11,13 @@ import { ChevronRight } from "lucide-react"
 
 export function SpaExperience() {
   return (
-    <Section variant="default" id="experience">
+    <Section variant="cream" id="experience">
       <Container>
         <SectionHeading subtitle="Your Journey">
           The Luna Spa Experience
         </SectionHeading>
 
-        <div className="space-y-24">
+        <div className="space-y-16">
           {clientData.spaExperience.map((step, index) => (
             <motion.div
               key={step.id}

@@ -37,7 +37,7 @@ export function Navigation() {
         <Container>
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <a href="#" className="text-2xl font-serif font-semibold text-text">
+            <a href="#" className={`text-2xl font-serif font-semibold transition-colors duration-300 ${isScrolled ? 'text-text' : 'text-white'}`}>
               {clientData.businessName}
             </a>
 
@@ -47,7 +47,7 @@ export function Navigation() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-text hover:text-accent transition-colors font-medium"
+                  className={`transition-colors font-medium ${isScrolled ? 'text-text hover:text-accent' : 'text-white/90 hover:text-white'}`}
                 >
                   {link.name}
                 </a>
@@ -58,18 +58,18 @@ export function Navigation() {
             <div className="hidden md:flex items-center gap-4">
               <a
                 href={`tel:${clientData.phone}`}
-                className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors"
+                className={`flex items-center gap-2 transition-colors ${isScrolled ? 'text-accent hover:text-accent/80' : 'text-white/80 hover:text-white'}`}
               >
                 <Phone className="w-4 h-4" />
                 <span className="font-medium">{clientData.phone}</span>
               </a>
-              <Button size="sm">Book Now</Button>
+              <Button size="sm" className={isScrolled ? '' : 'bg-white text-black hover:bg-white/90 border-0'}>Book Now</Button>
             </div>
 
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden p-2 text-text"
+              className={`md:hidden p-2 transition-colors ${isScrolled ? 'text-text' : 'text-white'}`}
               aria-label="Toggle menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

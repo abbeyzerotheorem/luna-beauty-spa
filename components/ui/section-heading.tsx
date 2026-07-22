@@ -16,14 +16,14 @@ const SectionHeading = React.forwardRef<HTMLHeadingElement, SectionHeadingProps>
         )}
       >
         {subtitle && (
-          <p className="text-accent font-medium text-sm sm:text-base uppercase tracking-widest mb-3">
+          <p className="text-accent font-semibold text-xs sm:text-sm uppercase tracking-[0.2em] mb-3 font-sans">
             {subtitle}
           </p>
         )}
         <h2
           ref={ref}
           className={cn(
-            "text-3xl sm:text-4xl lg:text-5xl font-serif font-semibold text-text leading-tight",
+            "text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-text leading-tight tracking-tight",
             className
           )}
           {...props}

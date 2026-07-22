@@ -30,7 +30,7 @@ export function Gallery() {
   }
 
   return (
-    <Section variant="default" id="gallery">
+    <Section variant="primary" id="gallery">
       <Container>
         <SectionHeading subtitle="Our Space">
           Gallery
@@ -41,16 +41,13 @@ export function Gallery() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
         >
           {clientData.gallery.map((image, index) => (
             <motion.div
               key={image.id}
               variants={itemVariants}
-              className="relative group overflow-hidden rounded-2xl break-inside-avoid"
-              style={{
-                height: index % 3 === 0 ? '400px' : index % 3 === 1 ? '300px' : '350px',
-              }}
+              className="relative group overflow-hidden rounded-2xl aspect-square"
             >
               <Image
                 src={image.src}
